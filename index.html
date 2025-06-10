@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Staff Punishment Guidelines</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Staff Punishment Guidelines</h1>
+    <input type="text" id="searchInput" placeholder="Search offences or notes..." />
+
+    <div class="table-container">
+      <table id="punishmentTable">
+        <thead>
+          <tr>
+            <th class="offence-col">Offence</th>
+            <th class="col1">1st Offence</th>
+            <th class="col2">2nd Offence</th>
+            <th class="col3">3rd Offence</th>
+            <th class="col4">4th & Cont.</th>
+            <th class="col5">3 Months ></th>
+            <th class="notes-col">Special Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Rows will be injected by script.js -->
+        </tbody>
+      </table>
+    </div>
+
+    <div class="legend">
+      <strong>Legend:</strong><br />
+      <span class="legend-green">At Staff Discretion / Can Verbal</span> |
+      <span class="legend-yellow">Lesser Punishment</span> |
+      <span class="legend-red">No Discretion</span> |
+      <span class="legend-redbold">PERM issued by Manager + ONLY</span><br />
+      <span class="note">Note:</span> If last infraction was more than 3 months ago, treat this as 1st offence.
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
