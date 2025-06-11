@@ -3,7 +3,7 @@ const data = [
   ["Combat Logging", "Warning", "2 Hour Ban", "12 Hour Ban", "72 Hour Ban", "Reset", "Context dependent (may not be intentional)"],
   ["Cop Baiting", "Educational", "Kick", "12 Hour Ban", "72 Hour Ban", "Reset", "Coach RP styles"],
   ["Exploiting", "72hr Ban", "PERM BAN (if intent proven)", "-", "-", "-", "Needs proof; appeal possible"],
-  ["Fail Roleplay", "Educational", "2 Hour Ban", "12 Hour Ban", "Initiate 3SP", "Reset", "Focus on RP improvement"],
+  ["FRP|Fail Roleplay", "Educational", "2 Hour Ban", "12 Hour Ban", "Initiate 3SP", "Reset", "Focus on RP improvement"],
   ["Fail to Follow Staff", "Warning", "24 Hour Ban", "72 Hour Ban", "1 Week Ban", "Reset", "Genuine misunderstanding = education"],
   ["Forced RP / Interjection", "Educational", "Kick", "2 Hour Ban", "24 Hour Ban", "Reset", "Use educational tone"],
   ["Greenzone Breach", "Educational", "Kick", "2 Hour Ban", "24 Hour Ban", "Reset", "Clarify rules if unclear"],
