@@ -1,4 +1,5 @@
 const data = [
+  ["3SP|3 Strike Policy", "1 Day Ban", "3 Day Ban", "PERM BAN (See Notes)", "-", "-", "Third strike must be authorized by a manager or higher"],
   ["Abuse of OOC", "Warning", "Kick", "12 Hour Ban", "72 Hour Ban", "Reset", "Spamming OOC"],
   ["Combat Logging", "Warning", "2 Hour Ban", "12 Hour Ban", "72 Hour Ban", "Reset", "Context dependent (may not be intentional)"],
   ["Cop Baiting", "Educational", "Kick", "12 Hour Ban", "72 Hour Ban", "Reset", "Coach RP styles"],
