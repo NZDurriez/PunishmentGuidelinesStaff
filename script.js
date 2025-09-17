@@ -17,7 +17,7 @@ const data = [
   ["Priority Status Breach", "Educational", "Kick", "12 Hour Ban", "24 Hour Ban", "Reset", "Repeat consider 3SP."],
   ["RDM", "Kick", "12 Hour Ban", "24 Hour Ban", "72 Hour Ban", "Reset", "Low Tolerance"],
   ["Restricted Civ RP", "Educational", "Kick", "12 Hour Ban", "24 Hour Ban", "Reset", "Suicidal RP = context needed"],
-  ["Sexual Remarks / Comments", "Warning", "PERM BAN (if repeated)", "-", "-", "-", "Context dependent; consult Exec"],
+  ["Sexual Remarks / Comments", "Warning", "PERM BAN (if repeated)", "-", "-", "-", "Remark must be witnessed by staff or reported by a player. (Also Context dependent; consult Exec)"],
   ["Specialist Scenes", "Educational", "Kick", "12 Hour Ban", "24 Hour Ban", "Reset", "Guided by RP scene setup"],
   ["Staff Impersonation", "24 Hour Ban", "PERM BAN", "-", "-", "-", "Zero tolerance"],
   ["Toxic Behaviour", "Kick", "24 Hour Ban", "72 Hour Ban", "3SP", "-", "Requires staff mediation"],
