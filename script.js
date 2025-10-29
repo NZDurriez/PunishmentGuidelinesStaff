@@ -20,7 +20,7 @@ const data = [
   ["Sexual Remarks / Comments", "Warning", "PERM BAN (if repeated)", "-", "-", "-", "Remark must be witnessed by staff or reported by a player. (Also Context dependent; consult Manager+)"],
   ["Specialist Scenes", "Educational", "Kick", "12 Hour Ban", "24 Hour Ban", "Reset", "Guided by RP scene setup"],
   ["Staff Impersonation", "24 Hour Ban", "PERM BAN", "-", "-", "-", "Zero tolerance"],
-  ["Toxic Behaviour", "Kick", "24 Hour Ban", "72 Hour Ban", "3SP", "-", "Requires staff mediation"],
+  ["Toxic Behaviour", "Kick", "24 Hour Ban", "72 Hour Ban", "Initiate 3SP", "-", "Requires staff mediation"],
   ["Trolling", "Warning", "12 Hour Ban", "24 Hour Ban", "72 Hour Ban", "Reset", "Can be playful — judge tone"],
   ["VDM", "Kick", "12 Hour Ban", "24 Hour Ban", "72 Hour Ban", "Reset", "Low Tolerance"],
   ["Vulgar Language", "Warning", "24 Hour Ban", "72 Hour Ban", "1 Week Ban / PERM", "-", "Slurs = zero tolerance; others = escalation"],
@@ -47,4 +47,5 @@ document.getElementById("searchInput").addEventListener("input", function () {
     row.style.display = text.includes(filter) ? "" : "none";
   });
 });
+
 
