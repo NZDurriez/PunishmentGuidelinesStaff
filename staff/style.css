@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px; /* was 1000px */
+  margin: 0 auto;
+  padding: 20px;
+  overflow: auto;
+  height: 100vh;
+}
+
+h1 {
+  color: orange;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.table-container {
+  overflow-y: auto;
+  padding-right: 10px;
+  max-height: 80vh;
+  scrollbar-width: none;
+}
+
+.table-container::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* ensures evenly spaced columns */
+}
+
+th, td {
+  padding: 6px 8px;
+  text-align: left;
+  border: 1px solid #444;
+  word-wrap: break-word;
+}
+
+thead th {
+  background-color: #2b2b2b;
+}
+
+.offence-col {
+  background-color: #2a2a2a;
+  color: orange;
+  font-weight: bold;
+  width: 200px;
+}
+
+.col1 {
+  background-color: #2f4f2f;
+  color: #fff;
+  width: 150px;
+}
+
+.col2 {
+  background-color: #666600;
+  color: #fff;
+  width: 150px;
+}
+
+.col3, .col4, .col5 {
+  background-color: #661111;
+  color: #fff;
+  width: 150px;
+}
+
+.notes-col {
+  background-color: #1e1e1e;
+  color: #eee;
+  width: 300px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #2c2c2c;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #1e1e1e;
+}
+
+.legend {
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.legend-green {
+  color: #00ff88;
+}
+
+.legend-yellow {
+  color: yellow;
+}
+
+.legend-red {
+  color: red;
+}
+
+.legend-redbold {
+  color: red;
+  font-weight: bold;
+}
+
+.note {
+  font-style: italic;
+}
+
+/* Optional: hide scrollbars visually but allow scrolling */
+.container,
+.table-container {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.container::-webkit-scrollbar,
+.table-container::-webkit-scrollbar {
+  display: none;
+}
